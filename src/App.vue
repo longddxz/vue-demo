@@ -6,8 +6,15 @@
 </template>
 
 <script>
+// 导入其它组件
+import Hello from './components/HelloWorld'
+import Demo from './components/Demo'
 export default {
-  name: 'App'
+  name: 'App', // 当前vue的文件名称
+  components: {
+    Hello,
+    Demo
+  }
 }
 </script>
 
