@@ -1,6 +1,7 @@
 root = true
 
 [*]
+# 定义编码
 charset = utf-8
 indent_style = space
 indent_size = 2
